@@ -1,0 +1,232 @@
+* {
+    scroll-snap-align: start;
+    overflow-x: hidden;
+}
+
+.container {
+    padding: .3rem;
+}
+
+h1 {
+    padding: .5rem;
+    overflow: hidden;
+}
+
+h2 {
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'Ysabeau Office', sans-serif;
+    overflow: hidden;
+}
+
+li:hover, #order-now-text:hover {
+    color: rgb(89, 89, 216);
+    text-decoration: underline;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#order-now-text {
+    color: rgb(89, 89, 216);
+}
+
+button:hover {
+    background-color: rgb(89, 89, 216);
+    text-decoration: underline;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-title {
+    font-family: 'Preahvihear', sans-serif;
+    font-weight: bold;
+    background-color: #f1f1f1c7;
+}
+
+#oil-passage-container {
+    background-image: url(./oil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .7;
+    background-position: center;
+}
+
+#herbs-passage-container {
+    background-image: url(./herbs.jpg);
+    background-size: cover;
+    opacity: .7;
+    background-position: center;
+}
+
+#flowers-passage-container {
+    background-image: url(./flower.jpg);
+    background-size: 95%;
+    opacity: .7;
+    background-position: center;
+}
+
+#bubbles-passage-container {
+    background-image: url(./bubbles.jpg);
+    background-size: 95%;
+    opacity: .7;
+    background-position: center;
+}
+
+#mailist-container {
+    background-color: rgba(158, 107, 107, 0.247);
+    background-image: url(./lemons.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#oil-passage-container:hover,
+#bubbles-passage-container:hover,
+#flowers-passage-container:hover,
+#herbs-passage-container:hover {
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.overshow-text {
+    opacity: .6;
+    background-color: #f1f0f0b9;
+}
+
+#motto-container {
+   background-color: rgba(253, 247, 240, 0.658);
+    opacity: .65;
+}
+
+.image {
+    width: 7rem;
+    height: 7rem;
+    border: 3px inset grey;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-container {
+    background-color: rgba(248, 226, 199, 0.158);
+    background-image: url(./plant-side.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#top-container {
+    background-color: rgba(255, 255, 0, 0.664);
+}
+
+#test-container {
+    background-image: url(./oil-2.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: .65;
+    height: 15rem;
+}
+
+#hair-oil-text {
+    background-color: #f1f1f170;
+    opacity: .85;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+#hair-oil-btn {
+    width: 10rem;
+}
+
+#lemon-background-section {
+    background-image: url(./yellow-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#product-1 {
+    background-image: url(./oranges.jpg);
+    background-position: center;
+    background-size: contain;
+    opacity: .6;
+}
+
+#product-2 {
+    background-image: url(./wood.jpg);
+    background-position: center;
+    background-size: contain;
+    opacity: .6;
+}
+
+#main-background-section {
+    background-image: url(./grapefruit.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Width and height of the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* Background color of the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  /* Color of the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: darkgoldenrod;
+    border-radius: 6px; /* Rounded edges */
+  }
+  
+  /* Color of the scrollbar thumb when grabbing */
+  ::-webkit-scrollbar-thumb:active {
+    background-color: rgb(116, 85, 9); /* Dark yellow color when grabbing */
+  }
+
+  .navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navList li {
+    padding: 0 .5rem;
+}
+
+.p-description {
+    background-color: #f1f1f1c7;
+}
+
+.title {
+    background-color: #f1f1f1a9;
+}
+
+#our-story {
+    font-family: 'Barriecito', cursive;
+    font-size: 5.5rem;
+    color: rgba(36, 35, 37, 0.863);
+}
+
+.about-the-owner {
+    text-decoration: underline;
+}
